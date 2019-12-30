@@ -19,7 +19,7 @@ Este vem com as seguintes bibliotecas instaladas:
 
 Voce precisa ter, inicialmente, o docker instalado. Entre na pasta onde voce deseja trabalhar e execute o seguinte comando:
 
-    $ docker run -v $(pwd):/app --rm -it -p 8888:8888 code4cwb/datascience-kit
+    $ docker run -v "$(pwd):/app" --rm -it -p 8888:8888 code4cwb/datascience-kit
 
 # Roadmap
 
